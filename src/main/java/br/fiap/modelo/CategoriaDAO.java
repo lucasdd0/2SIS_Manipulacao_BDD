@@ -29,7 +29,7 @@ public class CategoriaDAO {
 
     public List<Categoria> listar(){
         List<Categoria> lista = new ArrayList<>();
-        sql = "SELECT * FROM java_categoria";
+        sql = "SELECT * FROM java_categoria ORDER BY id_categoria";
 
         try(Connection connection = Conexao.conectar()) {
             ps = connection.prepareStatement(sql);
