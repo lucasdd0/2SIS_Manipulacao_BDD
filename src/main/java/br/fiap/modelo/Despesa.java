@@ -28,4 +28,24 @@ public class Despesa {
     public Categoria getCategoria() {
         return categoria;
     }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
+    }
 }
